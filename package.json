@@ -1,0 +1,33 @@
+{
+  "name": "numseq",
+  "version": "0.1.0",
+  "description": "A simple integer number sequence generator.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "debug": "./node_modules/mocha/bin/mocha -u tdd --recursive --debug-brk",
+    "test": "./node_modules/mocha/bin/mocha -u tdd --recursive -s 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joefallon/numseq.git"
+  },
+  "keywords": [
+    "number-sequence"
+  ],
+  "author": "Joe Fallon <joseph.t.fallon@gmail.com> (http://blog.joefallon.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joefallon/numseq/issues"
+  },
+  "homepage": "https://github.com/joefallon/numseq#readme",
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.32",
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+  },
+  "types": "./src"
+}

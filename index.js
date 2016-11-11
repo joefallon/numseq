@@ -1,0 +1,1 @@
+exports.Numseq = require('./src/Numseq');
