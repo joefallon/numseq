@@ -1,6 +1,7 @@
 "use strict";
-var chai = require('chai');
 var Numseq = require('../src/Numseq');
+var chai = require('chai');
+var assert = chai.assert;
 describe('Numseq', function () {
     var assert = chai.assert;
     describe('#next', function () {

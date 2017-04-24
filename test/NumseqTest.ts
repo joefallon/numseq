@@ -1,5 +1,7 @@
-import chai = require('chai');
 import Numseq = require('../src/Numseq');
+
+import chai = require('chai');
+const assert = chai.assert;
 
 describe('Numseq', () => {
     let assert = chai.assert;
