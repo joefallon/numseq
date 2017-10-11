@@ -1,10 +1,7 @@
-import Numseq = require('../src/Numseq');
-
-import chai = require('chai');
-const assert = chai.assert;
+import {Numseq} from '../src/Numseq';
+import assert = require('assert');
 
 describe('Numseq', () => {
-    let assert = chai.assert;
 
     describe('#next', () => {
         it('starts at 1 and returns the next integer on each call', (done) => {

@@ -1,4 +1,4 @@
-class Numseq {
+export class Numseq {
     private static _seq = 0;
 
     public static next():number {
@@ -11,5 +11,3 @@ class Numseq {
         Numseq._seq = 0;
     }
 }
-
-export = Numseq;

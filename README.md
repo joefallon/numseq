@@ -9,7 +9,7 @@ Installation
 The easiest way to install `numseq` is with npm. 
 
 ```
-npm install numseq --save
+npm install numseq --save-dev
 ```
 
 NumSeq
@@ -33,6 +33,6 @@ database have unique values during testing.
 ### Class Functions
 
 ```typescript
-public static next():number;  // get the next integer
-public static reset();        // reset the sequence
+public static next(): number;  // get the next integer
+public static reset();         // reset the sequence
 ```

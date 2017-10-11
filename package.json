@@ -1,12 +1,12 @@
 {
   "name": "numseq",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A simple integer number sequence generator.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "compile": "tsc",
-    "debug": "./node_modules/mocha/bin/mocha -u tdd --recursive --debug-brk",
-    "test": "./node_modules/mocha/bin/mocha -u tdd --recursive -s 0"
+    "test": "./node_modules/mocha/bin/mocha --recursive -s 0",
+    "test:debug": "./node_modules/mocha/bin/mocha --recursive --debug-brk"
   },
   "repository": {
     "type": "git",
@@ -22,12 +22,9 @@
   },
   "homepage": "https://github.com/joefallon/numseq#readme",
   "devDependencies": {
-    "@types/chai": "^3.4.34",
-    "@types/mocha": "^2.2.32",
-    "chai": "^3.5.0",
-    "mocha": "^3.0.2"
+    "@types/mocha": "^2.2.43",
+    "assert": "^1.4.1",
+    "mocha": "^4.0.1"
   },
-  "dependencies": {
-  },
-  "types": "./src"
+  "dependencies": {}
 }
