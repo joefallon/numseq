@@ -1,10 +1,17 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
+    "alwaysStrict": true,
+    "downlevelIteration": true,
+    "importHelpers": true,
     "inlineSourceMap": true,
-    "declaration": true,
-    "downlevelIteration": true
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "pretty": true,
+    "skipLibCheck": true,
+    "strictFunctionTypes": true,
+    "target": "es5",
+    "lib": ["es6"]
   },
   "exclude": [
     "node_modules"

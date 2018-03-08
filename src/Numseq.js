@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Numseq = (function () {
+var Numseq = /** @class */ (function () {
     function Numseq() {
     }
     Numseq.next = function () {
